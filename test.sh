@@ -4,7 +4,7 @@
 
 # Set the inputs
 INPUT1=6
-INPUT2=5
+INPUT2=6
 
 # Deliberately set the expected result to an incorrect value
 EXPECTED_RESULT=12  # This is intentionally incorrect for testing
