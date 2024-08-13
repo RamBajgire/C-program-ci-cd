@@ -6,7 +6,7 @@ int calculate_sum(int a, int b) {
 }
 
 int main() {
-    int result = calculate_sum(5, 5);
+    int result = calculate_sum(5, 6);
     
     // Save result to a file
     FILE *file = fopen("result.txt", "w");
