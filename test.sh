@@ -4,7 +4,7 @@
 
 # Set the expected input and result
 INPUT1=5
-INPUT2=7
+INPUT2=6
 EXPECTED_RESULT=12
 
 # Run the program and provide input
