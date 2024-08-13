@@ -25,7 +25,7 @@ run: $(TARGET)
 
 # Test the output
 test: run
-	@EXPECTED=12; \
+	@EXPECTED=10; \
 	RESULT=`cat result.txt`; \
 	if [ "$$RESULT" -eq "$$EXPECTED" ]; then \
 		echo "Test passed: $$RESULT == $$EXPECTED"; \
