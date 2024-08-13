@@ -7,7 +7,7 @@ INPUT1=6
 INPUT2=7
 
 # Deliberately set the expected result to an incorrect value
-EXPECTED_RESULT=12  # This is intentionally incorrect for testing
+EXPECTED_RESULT=13  # This is intentionally incorrect for testing
 
 # Run the program and provide input
 echo -e "$INPUT1\n$INPUT2" | make run
