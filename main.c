@@ -6,8 +6,17 @@ int calculate_sum(int a, int b) {
 }
 
 int main() {
-    int result = calculate_sum(5, 6);
-    
+    int num1, num2, result;
+
+    // Prompt user for input
+    printf("Enter first number: ");
+    scanf("%d", &num1);
+    printf("Enter second number: ");
+    scanf("%d", &num2);
+
+    // Calculate sum
+    result = calculate_sum(num1, num2);
+
     // Save result to a file
     FILE *file = fopen("result.txt", "w");
     if (file == NULL) {
