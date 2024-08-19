@@ -1,4 +1,4 @@
-// main.c
+ // main.c
 #include <stdio.h>
 
 int calculate_sum(int a, int b) {
