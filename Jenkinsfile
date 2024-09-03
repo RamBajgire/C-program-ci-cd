@@ -7,6 +7,7 @@ pipeline {
                 sh '''pwd 
                 make
                 echo "20 30" | ./hello
+                cat resul.txt
                 '''
             }
         }
