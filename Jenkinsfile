@@ -2,10 +2,12 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('build') {
             steps {
-                sh 'ls'
-                echo 'Hello World'
+                sh '''pwd 
+                make
+                ls
+                '''
             }
         }
     }
