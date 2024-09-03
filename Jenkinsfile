@@ -6,7 +6,7 @@ pipeline {
             steps {
                 sh '''pwd 
                 make
-                ls
+                echo "20 30" | ./hello
                 '''
             }
         }
