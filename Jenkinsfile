@@ -17,6 +17,7 @@ pipeline {
                     make
                     echo "20 30" | ./hello
                     cat result.txt
+                    make clean
                     '''
                     }
                 }
@@ -27,6 +28,7 @@ pipeline {
                     make
                     echo "20 30" | ./hello
                     cat result.txt
+                    make clean
                     '''
                     }
                 }
