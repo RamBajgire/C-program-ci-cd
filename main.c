@@ -18,14 +18,14 @@ int main() {
     result = calculate_sum(num1, num2);
 
     // Save result to a file
-    FILE *file = fopen("result.txt", "w");
+  /*  FILE *file = fopen("result.txt", "w");
     if (file == NULL) {
         printf("Error opening file!\n");
         return 1;
     }
     fprintf(file, "%d\n", result);
     fclose(file);
-    
-    printf("Result calculated and saved to result.txt\n");
+    */
+    printf("Result=%d\n",result);
     return 0;
 }
