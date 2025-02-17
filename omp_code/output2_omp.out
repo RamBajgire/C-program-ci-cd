@@ -1,0 +1,19 @@
+pi cal
+ n : 10000384 
+Approximation of Pi: 3.1415926536
+Time measured: 0.0335248190 sec
+ n : 10000384 
+Approximation of Pi: 3.1415926536
+Time measured: 0.0350861000 sec
+ 
+convolution
+ 
+ width : 8192, height: 8192 
+Time measured: 0.113687 sec
+ width : 8192, height: 8192 
+Time measured: 0.11488 sec
+ 
+nbody 
+ 
+Time measured: 2.19103 sec
+Time measured: 2.39 sec

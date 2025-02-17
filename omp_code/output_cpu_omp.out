@@ -1,0 +1,38 @@
+pi cal
+ n : 10000384 
+Approximation of Pi: 3.1415926536
+Time measured: 0.0279041370 sec
+ n : 10000384 
+Approximation of Pi: 3.1415926536
+Time measured: 0.0271417570 sec
+ 
+convolution
+ 
+ width : 8192, height: 8192 
+Time measured: 0.081602 sec
+ width : 8192, height: 8192 
+Time measured: 0.162587 sec
+ 
+nbody 
+ 
+Time measured: 2.16546 sec
+Time measured: 2.12932 sec
+ 
+sparse_mm 
+ 
+OpenMP SpMM Execution Time: 0.502965 seconds
+OpenMP SpMM Execution Time: 0.504049 seconds
+laplace size: nodes:  51200   Elements: 102400
+
+Generating unstructured mesh...for N_NODES = 51200 ELEMENTS = 102400
+Solving Laplace equation on unstructured grid...
+Time measured: 30.347657 sec
+Generating unstructured mesh...for N_NODES = 51200 ELEMENTS = 102400
+Solving Laplace equation on unstructured grid...
+Time measured: 30.615015 sec
+Generating unstructured mesh...for N_NODES = 51200 ELEMENTS = 102400
+Solving Laplace equation on unstructured grid...
+Time measured: 31.945348 sec
+Generating unstructured mesh...for N_NODES = 51200 ELEMENTS = 102400
+Solving Laplace equation on unstructured grid...
+Time measured: 31.267832 sec

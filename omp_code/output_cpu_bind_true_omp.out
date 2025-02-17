@@ -1,0 +1,52 @@
+pi cal
+ n : 10000384 
+Approximation of Pi: 3.1415926536
+Time measured: 0.0309500950 sec
+ n : 10000384 
+Approximation of Pi: 3.1415926536
+Time measured: 0.0259047890 sec
+ n : 10000384 
+Approximation of Pi: 3.1415926536
+Time measured: 0.0244648330 sec
+ n : 10000384 
+Approximation of Pi: 3.1415926536
+Time measured: 0.0254259100 sec
+ 
+convolution
+ 
+ width : 8192, height: 8192 
+Time measured: 0.121412 sec
+ width : 8192, height: 8192 
+Time measured: 0.159391 sec
+ width : 8192, height: 8192 
+Time measured: 0.0974616 sec
+ width : 8192, height: 8192 
+Time measured: 0.105825 sec
+ 
+nbody 
+ 
+Time measured: 2.57746 sec
+Time measured: 2.65804 sec
+Time measured: 2.65716 sec
+Time measured: 2.70047 sec
+ 
+sparse_mm 
+ 
+OpenMP SpMM Execution Time: 0.797176 seconds
+OpenMP SpMM Execution Time: 0.784836 seconds
+OpenMP SpMM Execution Time: 0.76998 seconds
+OpenMP SpMM Execution Time: 0.786685 seconds
+laplace size: nodes:  51200   Elements: 102400
+
+Generating unstructured mesh...for N_NODES = 51200 ELEMENTS = 102400
+Solving Laplace equation on unstructured grid...
+Time measured: 32.179482 sec
+Generating unstructured mesh...for N_NODES = 51200 ELEMENTS = 102400
+Solving Laplace equation on unstructured grid...
+Time measured: 30.935270 sec
+Generating unstructured mesh...for N_NODES = 51200 ELEMENTS = 102400
+Solving Laplace equation on unstructured grid...
+Time measured: 31.137825 sec
+Generating unstructured mesh...for N_NODES = 51200 ELEMENTS = 102400
+Solving Laplace equation on unstructured grid...
+Time measured: 31.809703 sec

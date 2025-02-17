@@ -1,0 +1,56 @@
+/home/deepikahv/binaries/gcc_v12.2.0_inst_dir/bin/gcc
+/home/deepikahv/binaries/perl_v5.40.1_inst_dir/bin/perl
+/home/deepikahv/binaries/cmake_v3.26.6_inst_dir/bin/cmake
+/home/deepikahv/binaries/openmpi_v5.0.6_inst_dir/bin/mpicc
+pi cal
+ n : 10000384 
+Approximation of Pi: 3.1415926536
+Time measured: 0.0317440790 sec
+ n : 10000384 
+Approximation of Pi: 3.1415926536
+Time measured: 0.0266613310 sec
+ n : 10000384 
+Approximation of Pi: 3.1415926536
+Time measured: 0.0279582680 sec
+ n : 10000384 
+Approximation of Pi: 3.1415926536
+Time measured: 0.0269959910 sec
+ 
+convolution
+ 
+ width : 8192, height: 8192 
+Time measured: 0.091444 sec
+ width : 8192, height: 8192 
+Time measured: 0.0904321 sec
+ width : 8192, height: 8192 
+Time measured: 0.0916115 sec
+ width : 8192, height: 8192 
+Time measured: 0.0899318 sec
+ 
+nbody 
+ 
+Time measured: 2.66568 sec
+Time measured: 2.68358 sec
+Time measured: 2.64904 sec
+Time measured: 2.57517 sec
+ 
+sparse_mm 
+ 
+OpenMP SpMM Execution Time: 0.779438 seconds
+OpenMP SpMM Execution Time: 0.800335 seconds
+OpenMP SpMM Execution Time: 0.780721 seconds
+OpenMP SpMM Execution Time: 0.789068 seconds
+laplace size: nodes:  51200   Elements: 102400
+
+Generating unstructured mesh...for N_NODES = 51200 ELEMENTS = 102400
+Solving Laplace equation on unstructured grid...
+Time measured: 32.819706 sec
+Generating unstructured mesh...for N_NODES = 51200 ELEMENTS = 102400
+Solving Laplace equation on unstructured grid...
+Time measured: 32.039549 sec
+Generating unstructured mesh...for N_NODES = 51200 ELEMENTS = 102400
+Solving Laplace equation on unstructured grid...
+Time measured: 32.605844 sec
+Generating unstructured mesh...for N_NODES = 51200 ELEMENTS = 102400
+Solving Laplace equation on unstructured grid...
+Time measured: 31.390348 sec
